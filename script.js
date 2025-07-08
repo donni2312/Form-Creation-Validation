@@ -1,5 +1,5 @@
 document.addEventListener('DOMContentLoaded', function () {
-    const form = document.getElementById('registration form');
+    const form = document.getElementById('registration-form');
     const feedbackDiv = document.getElementById('feedback');
     form.addEventListener('submit', function(event) {
         event.preventDefault();
